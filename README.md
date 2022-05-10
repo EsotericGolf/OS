@@ -7,9 +7,9 @@ This is made with assembly. To run, you must have
 
 Then, to start the OS, you can run this command:
 
-
-    nasm -f bin boot.asm -o boot.bin && qemu-system-x86_64 boot.bin -nographic
-
+```sh
+nasm -f bin boot.asm -o boot.bin && qemu-system-x86_64 boot.bin -nographic
+```
 
 Or, you can just run `bash main.sh`. I already put the command in the file for easier access.
 
